@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Press+Start+2P&display=swap');
+
+@font-face{
+	font-family: "Helvetica";
+	src: url("helve6-webfont.woff");
+}
+
+
+* {
+	background: black;
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+#agrupar { 
+	max-width: 1000px;
+	background: black;
+	margin: 0px auto;
+}
+
+#cabecera { 
+	background: black;
+	padding: 20px;
+	text-align: center;
+}
+
+#titulo {
+	font-size: 100px;
+	font-family: 'Bungee', cursive;
+	color: #000ed1;
+	margin-top: -50px;
+}
+
+#titulo2 {
+	margin-top: -240px;
+	font-family: 'Bungee', cursive;
+	font-size: 100px;
+	color: #ffce0a;
+}
+
+h2 {
+	font-family: 'Press Start 2P', cursive;
+	font-size: 12px;
+	font-weight: 200;
+	color: #ffc300;
+	margin-top: -70px;
+	padding-bottom: 30px;
+}
+
+h2 img {
+	width: 50px;
+}
+
+h3 {
+	font-size: 40px;
+	font-family: 'Bungee', cursive;
+	font-variant: small-caps;
+	text-align: center;
+	color: #b31500;
+}
+
+h4 {
+	font-size: 12px;
+	font-family: 'Press Start 2P', cursive;
+	color: #ffc300;
+	margin-top: -10px;
+	text-align: center;
+}
+
+p {
+	line-height: 150%;
+	font-family: 'Press Start 2P', cursive;
+	font-size: 10px;
+	margin: 20px;
+	color: white;
+}
+
+span {
+	font-family: inherit;
+	font-size: 100%;
+	display: inline;
+	color: white;
+}
+
+#pe {
+	text-align: center;
+	font-family: 'Bungee', cursive;
+	font-size: 25px;
+	color: #4032dc;
+	text-shadow: rgba(17, 0, 209, 0.68) 3px 3px 5px;
+}
+
+#menu {
+	border: 3px solid #1d27b4;
+	border-radius: 100px;
+	padding: 5px 15px;
+}
+
+#menu li { 
+	display: inline-block;
+	list-style: none;
+	clear: both;
+	width: 24%;
+	font-family: 'Press Start 2P', cursive;
+	font-size: 10px;
+	color: white;
+	text-align: center;
+}
+
+#menu li:hover {
+	color: #ffce0a;
+}
+
+img {
+	margin-bottom: -2px;
+}
+
+#seccion {
+	float:left;
+	width: 660px;
+	margin: 20px; 
+}
+
+#pacman {
+	width: 25px;
+}
+
+#columna {
+	float:left;
+	width: 220px;
+	margin: 20px 0;
+	margin-left: 30px;
+	padding: 20px;
+	border: 3px solid #1d27b4;
+	border-radius: 30px;
+	text-align: left;
+	font-family: 'Press Start 2P', cursive;
+	font-size: 13px;
+	color: white;
+	line-height: 150%;
+	box-shadow: rgba(0, 16, 245, 0.68) 5px 5px 10px inset;
+}
+
+.uno {
+	font-family: 'Bungee', cursive;
+	font-size: 20px;
+	line-height: 110%;
+	margin: 12px;
+	color: #b31500;
+}
+
+#article1 {
+	padding: 20px;
+	margin-bottom: 15px;
+}
+
+#article1 q { 
+	text-align: justify;
+	font-family: 'Press Start 2P', cursive;
+	font-size: 10px;
+	line-height: 130%;
+	margin-top: 5px;
+	color: white;
+	font-style: oblique;
+}
+
+#art2 {
+	border: 3px solid #1d27b4;
+	border-radius: 50px;
+	box-shadow: rgba(10, 27, 255, 0.67) 5px 5px 10px inset;
+}
+
+#webp {
+	width: 1000px;
+	position: relative;
+}
+
+#webp:hover {
+	-webkit-transform: rotateY(180deg);
+	-webkit-transform-style: preserve-3d;
+	transform: rotateY(180deg);
+	transform-style: preserve-3d;
+}
+
+#red {
+	width: 180px;
+	position: relative;
+	left: 50px;
+}
+
+#red:hover {
+	-webkit-transition-duration: 1s;
+	-webkit-transform: skew(15deg);
+}
+
+#green {
+	width: 180px;
+	position: relative;
+	top: -5px;
+	left: 50px;
+}
+
+#green:hover {
+	-webkit-transform: rotate(180deg);
+	-webkit-transition-duration: 1s;
+}
+
+#pink {
+	width: 180px;
+	position: relative;
+	left: 50px;
+	top: -5px;
+}
+
+#pink:hover {
+	-webkit-transform:scale(1.3);
+	-webkit-transition-duration: 1s;
+	transform:scale(1.3);
+}
+
+#paginacion {
+	padding: .5em; /*importante:el borde solo funciona cuando hay relleno (padding)*/
+	padding-top: 5em;
+	overflow: hidden;
+	clear: both;
+	text-align: center;
+}
+
+.izq {
+	font-family: 'Press Start 2P', cursive;
+}
+
+a {
+	text-decoration: none;
+	font-family: 'Press Start 2p', cursive;
+	color: #ffca42;
+}
+
+a:hover {
+	color: #b31500;
+}
+
+
+#pie { 
+	clear: both;
+	text-align: center;
+	padding: 20px;
+	font-family: 'Press Start 2P', cursive;
+	color: #ffc300;
+	font-size: 10px;
+}
+
+@media only screen and (max-width:900) {
+	body {
+		width: 90%;
+    }
+}
